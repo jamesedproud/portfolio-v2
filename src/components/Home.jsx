@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import { PiArrowFatLinesDownBold } from "react-icons/pi";
+import { TiArrowDownThick } from "react-icons/ti";
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-gray-900">
       {/* Container */}
+
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -17,20 +18,30 @@ const Home = () => {
           hidden: { opacity: 0, y: 150 },
           visible: { opacity: 1, y: 0 },
         }}
-        className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full"
+        className="max-w-[1000px] px-8 flex flex-col lg:justify-center pt-[150px] lg:pt-0 lg:pb-10 h-full text-center mx-auto"
       >
-        <h1 className="md:text-8xl sm:text-7xl text-6xl font-bold text-center text-white">
+        <img
+          className="l-[250px] w-[250px]  visible max-w-[500] rounded-full bg-gradient-to-b from-teal-400 to-gray-900 mx-auto overflow-hidden"
+          src={process.env.PUBLIC_URL + "/james.png"}
+          alt="Avatar"
+        />
+        <h1
+          className="lg:text-8xl md:text-7xl sm:text-7xl text-5xl font-bold 
+         text-white pt-10"
+        >
           James Proud
         </h1>
-        <h2 className="mt-2 text-3xl text-center sm:text-4xl font-bold text-teal-400">
+        <h2 className="mt-2 text-2xl lg:text-4xl sm:text-3xl font-bold text-teal-400">
           <TypeAnimation
             sequence={[
-              1000,
+              2000,
               "Web Developer",
-              1000,
+              2000,
               "Systems Administrator",
-              1000,
+              2000,
               "IT Professional",
+              2000,
+              "Homo Sapien",
               1000,
             ]}
             speed={50}
@@ -43,8 +54,8 @@ const Home = () => {
       <div className="absolute xs:bottom-10 bottom-32  w-full flex justify-center items-center">
         <Link to="about" spy={true} smooth={true} duration={500}>
           <div className="w-[35px] h-[5px] flex justify-center items-start p-2 hover:cursor-pointer">
-            <div className="w-3 h-3 rounded-full bg-secondary mb-1">
-              <PiArrowFatLinesDownBold className="text-white ml-1 mr-2 hover:text-teal-400" />
+            <div className="w-3 h-3 rounded-full bg-secondary mb-1 content-center justify-center">
+              <TiArrowDownThick className="text-white ml-1 mr-2 hover:text-teal-400 w-[30px] h-[30px] mx-auto" />
             </div>
           </div>
         </Link>

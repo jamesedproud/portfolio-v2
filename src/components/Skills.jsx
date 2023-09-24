@@ -36,7 +36,7 @@ const Skills = () => {
           className="text-center"
         >
           <p className="text-4xl font-bold text-teal-400">Skills</p>
-          <p className="py-4">This is what I've been working with</p>
+          <p className="py-4">This is what I've been working with lately</p>
         </motion.div>
         <motion.div
           initial="hidden"

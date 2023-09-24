@@ -28,12 +28,11 @@ const About = () => {
               </p>
               <div>
                 <p className="pt-5 pb-5">
-                  Hello! I'm James. Afer pursuing a degree in Computing in
-                  London, I took the plunge and moved to Japan. Over the past
-                  few years I have worked in Data Center Operations at major
-                  cloud providers including AWS and Oracle, granting me
-                  invaluable insights into the intricacies of cloud technology.{" "}
-                  <br />
+                  Afer pursuing a degree in Computing in London, I took the
+                  plunge and moved to Japan. Over the past few years I have
+                  worked in Data Center Operations at major cloud providers
+                  including AWS and Oracle, granting me invaluable insights into
+                  the intricacies of cloud technology. <br />
                   <br /> My passion lies in software and application
                   development, where I've harnessed my skills in my workplace
                   and have become somewhat of a "rogue developer" crafting
@@ -45,9 +44,9 @@ const About = () => {
                   in a professional environment.
                   <br />
                   <br />
-                  I'm open to opportunities both in both Japan and the UK.
-                  Please feel free to explore my resume and delve into my skills
-                  and experiences below.
+                  I'm open to opportunities both in Japan and the UK. Please
+                  feel free to explore my resume and delve into my skills and
+                  experiences below.
                 </p>
               </div>
 
@@ -72,7 +71,7 @@ const About = () => {
               }}
               src={James}
               alt="James"
-              className="sm:visible invisible max-w-[500] rounded-full md:w-3/4 sm:w-1/4 sm:ml-96 md:ml-5 sm:-mt-20 md:mt-0 bg-gradient-to-b from-teal-400 ml-10 mx-auto overflow-hidden"
+              className="sm:visible invisible max-w-[500] rounded-full md:w-3/4 sm:w-1/4 sm:ml-96 md:ml-10 sm:-mt-20 md:mt-0 bg-gradient-to-b from-teal-400 ml-10 mx-auto overflow-hidden"
             />
           </div>
         </div>

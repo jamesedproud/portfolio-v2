@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import Home from "./Home";
 
 const MenuItem = ({ to, label, onClick }) => (
-  <li className="hover:text-teal-400 duration-200 hover:cursor-pointer">
+  <li className=" hover:text-teal-400 duration-200 hover:cursor-pointer text-lg">
     <Link to={to} spy={true} smooth={true} duration={500} onClick={onClick}>
       {label}
     </Link>
@@ -17,7 +17,7 @@ const Navbar = () => {
   const toggleNav = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-gray-900 text-[#fff] z-50">
+    <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-gray-900 text-[#fff] z-50 font-extrabold">
       <div>
         <Link to={"home"} spy={true} smooth={true} duration={500}>
           <img
