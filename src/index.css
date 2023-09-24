@@ -38,7 +38,7 @@
   border-radius: 50%;
   background: radial-gradient(
     ellipse at center,
-    rgba(29, 78, 216, 0.2) 5%,
+    rgba(29, 78, 216, 0.15) 5%,
     transparent 70%
   );
   pointer-events: none;

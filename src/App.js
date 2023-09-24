@@ -1,6 +1,4 @@
-// App.js
-
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -10,7 +8,6 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Socials from "./components/Socials";
 import Cursor from "./components/Cursor";
-import { animateScroll as scroll } from "react-scroll"; // Import animateScroll from react-scroll
 
 function App() {
   return (

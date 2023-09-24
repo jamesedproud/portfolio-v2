@@ -28,20 +28,21 @@ const About = () => {
               </p>
               <div>
                 <p className="pt-5 pb-5">
-                  Hello! I'm James, an IT professional originally from the UK,
-                  and currently living in Japan. Over the past few years, I have
-                  worked in Data Center Operations at major cloud providers,
-                  granting me invaluable insights into the intricacies of cloud
-                  technology. My passion lies in software and application
-                  development, where I've harnessed my skills in my workplace
-                  and have become somewhat of a "rogue developer" crafting
-                  internal tools and applications that benefit more than 10,000
-                  staff members within the organizations I have worked in. I've
-                  also had the privilege of engaging in mentoring sessions with
-                  internal software development teams and presenting my work to
-                  senior directors and VPs. I'm on the lookout for opportunities
-                  in both Japan and the UK. Please feel free to explore my
-                  resume and delve into my skills and experiences below.
+                  Hello! I'm James. Afer pursuing a degree in Computing in
+                  London, I took the plunge to move to Japan. Over the past few
+                  years, I have worked in Data Center Operations at major cloud
+                  providers including AWS and Oracle, granting me invaluable
+                  insights into the intricacies of cloud technology. My passion
+                  lies in software and application development, where I've
+                  harnessed my skills in my workplace and have become somewhat
+                  of a "rogue developer" crafting internal tools and
+                  applications that benefit more than 10,000 staff members
+                  within the organizations I have worked in. I've also had the
+                  privilege of engaging in mentoring sessions with internal
+                  software development teams and presenting my work to senior
+                  directors and VPs. I'm on the lookout for opportunities in
+                  both Japan and the UK. Please feel free to explore my resume
+                  and delve into my skills and experiences below.
                 </p>
               </div>
 

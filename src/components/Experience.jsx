@@ -18,7 +18,7 @@ const jobs = [
     points: [
       "Awarded the Computer Information Systems Department Prize for Outstanding Achievement.",
       "Dissertation: An investigation into how gamification may enhance education and improve overall performance and motivation. Awarded: 90%.",
-      "Dissertation was demonstrated through the development of a working online learning platform using C#, JavaScript, PHP and Unity3D.",
+      "Completed a variety of other software, game and application development projects both alone and in groups using various programming languages including Java, PHP, C# and C++.",
       "Covered a broad range of technical modules such as database application technologies, 3D computer graphics, systems development and web application development.",
     ],
   },

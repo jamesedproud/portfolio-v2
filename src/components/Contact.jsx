@@ -56,11 +56,11 @@ const Contact = () => {
   };
 
   return (
-    <div
-      name="contact"
-      className="text-white w-full h-screen bg-gray-900 flex justify-center text-center items-center p-4"
-    >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen">
+    <div className="text-white w-full h-screen bg-gray-900 flex justify-center text-center items-center p-4">
+      <div
+        name="contact"
+        className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen"
+      >
         <motion.div
           initial="hidden"
           whileInView="visible"

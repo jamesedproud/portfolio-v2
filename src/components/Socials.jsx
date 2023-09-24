@@ -54,7 +54,7 @@ const Socials = () => {
             Tailwind.css
           </a>
         }{" "}
-        by yours truly
+        by James Proud
       </p>
     </>
   );
