@@ -131,9 +131,19 @@ const Contact = () => {
               </button>
             </form>
           </motion.div>
-          <span className="mt-5">
+          <motion.span
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 50 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            className="mt-5"
+          >
             <Socials />
-          </span>
+          </motion.span>
         </div>
       </div>
     </>
