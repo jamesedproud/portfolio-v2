@@ -5,7 +5,7 @@ import { MdMail } from "react-icons/md";
 const Socials = () => {
   return (
     <>
-      <div className="w-full h-[10px] bg-gray-900 flex justify-center text-center items-center p-4">
+      <div className="w-full h-[10px] bg-gray-900 flex justify-center text-center items-center p-4 ">
         <div className="text-5xl flex justify-center gap-5 py-3 text-gray-600 mb-10">
           <a
             target="_blank"
@@ -31,7 +31,7 @@ const Socials = () => {
         </div>
       </div>
 
-      <p className="text-gray-400 text-sm text-center bg-gray-900 pb-5">
+      <p className="text-gray-400 text-sm text-center bg-gray-900 ">
         Built with{" "}
         {
           <a
@@ -40,7 +40,7 @@ const Socials = () => {
             href="https://react.dev/"
             className="text-white hover:cursor-pointer hover:text-teal-400"
           >
-            ReactJS
+            React
           </a>
         }{" "}
         and{" "}

@@ -10,9 +10,9 @@ const About = () => {
       <div name="about" className="w-full h-screen bg-gray-900 text-white">
         <div
           className="
-          flex flex-col justify-center items-center w-full h-full"
+          flex flex-col md:justify-center md:pt-10 pt-20 items-center w-full h-full"
         >
-          <div className="max-w-[1000px] ml-10 w-full grid grid-cols-2 gap-8 justify-center items-center">
+          <div className="max-w-[1000px] md:ml-10 w-full md:grid md:grid-cols-2 md:px-0 px-5 gap-8 justify-center items-center">
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -29,20 +29,25 @@ const About = () => {
               <div>
                 <p className="pt-5 pb-5">
                   Hello! I'm James. Afer pursuing a degree in Computing in
-                  London, I took the plunge to move to Japan. Over the past few
-                  years, I have worked in Data Center Operations at major cloud
-                  providers including AWS and Oracle, granting me invaluable
-                  insights into the intricacies of cloud technology. My passion
-                  lies in software and application development, where I've
-                  harnessed my skills in my workplace and have become somewhat
-                  of a "rogue developer" crafting internal tools and
-                  applications that benefit more than 10,000 staff members
-                  within the organizations I have worked in. I've also had the
-                  privilege of engaging in mentoring sessions with internal
-                  software development teams and presenting my work to senior
-                  directors and VPs. I'm on the lookout for opportunities in
-                  both Japan and the UK. Please feel free to explore my resume
-                  and delve into my skills and experiences below.
+                  London, I took the plunge and moved to Japan. Over the past
+                  few years I have worked in Data Center Operations at major
+                  cloud providers including AWS and Oracle, granting me
+                  invaluable insights into the intricacies of cloud technology.{" "}
+                  <br />
+                  <br /> My passion lies in software and application
+                  development, where I've harnessed my skills in my workplace
+                  and have become somewhat of a "rogue developer" crafting
+                  internal tools and applications that benefit more than 10,000
+                  staff members within the organizations I have worked in. I've
+                  also had the privilege of engaging in mentoring sessions with
+                  internal software development teams and presenting my work to
+                  senior directors and VPs. I am now looking to tame my skills
+                  in a professional environment.
+                  <br />
+                  <br />
+                  I'm open to opportunities both in both Japan and the UK.
+                  Please feel free to explore my resume and delve into my skills
+                  and experiences below.
                 </p>
               </div>
 
@@ -67,7 +72,7 @@ const About = () => {
               }}
               src={James}
               alt="James"
-              className="max-w-[500] rounded-full w-3/4 bg-gradient-to-b from-teal-400 ml-10 mx-auto overflow-hidden"
+              className="sm:visible invisible max-w-[500] rounded-full md:w-3/4 sm:w-1/4 sm:ml-96 md:ml-5 sm:-mt-20 md:mt-0 bg-gradient-to-b from-teal-400 ml-10 mx-auto overflow-hidden"
             />
           </div>
         </div>

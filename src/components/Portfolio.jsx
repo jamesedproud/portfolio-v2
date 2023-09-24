@@ -33,20 +33,13 @@ const ProjectCard = ({ title, imageSrc, demoLink, codeLink }) => {
 
 const Portfolio = () => {
   const projects = [
-    {
-      title: "Vanilla JavaScript Application (Old)",
-      imageSrc: PT,
-      demoLink:
-        "http://www.thepasswordtoolkit.com.s3-website.eu-west-2.amazonaws.com/",
-      codeLink: "https://github.com/jamesedproud/ThePasswordToolkit",
-    },
-    {
-      title: "Vanilla JavaScript Application (Old)",
-      imageSrc: PT,
-      demoLink:
-        "http://www.thepasswordtoolkit.com.s3-website.eu-west-2.amazonaws.com/",
-      codeLink: "https://github.com/jamesedproud/ThePasswordToolkit",
-    },
+    //{
+    //  title: "Vanilla JavaScript Application (Old)",
+    //  imageSrc: PT,
+    //  demoLink:
+    //     "http://www.thepasswordtoolkit.com.s3-website.eu-west-2.amazonaws.com/",
+    //   codeLink: "https://github.com/jamesedproud/ThePasswordToolkit",
+    // },
     // Add more projects here later
   ];
 

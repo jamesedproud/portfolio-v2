@@ -19,7 +19,6 @@ function App() {
       <Skills />
       <Portfolio />
       <Contact />
-      <Socials />
       <Cursor />
     </div>
   );
