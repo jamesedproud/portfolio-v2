@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <>
-      <div name="about" className="w-full h-screen bg-gray-900 text-white">
+      <div name="about" className="w-full sm:h-screen bg-gray-900 text-white">
         <div
           className="
           flex flex-col md:justify-center md:pt-10 pt-20 items-center w-full h-full"
@@ -71,7 +71,7 @@ const About = () => {
               }}
               src={James}
               alt="James"
-              className="sm:visible invisible max-w-[500] rounded-full md:w-3/4 sm:w-1/4 sm:ml-96 md:ml-10 sm:-mt-20 md:mt-0 bg-gradient-to-b from-teal-400 ml-10 mx-auto overflow-hidden"
+              className="max-w-[500] rounded-full sm:my-5 md:w-3/4 md:h-3/4 sm:w-2/4 sm:h-2/4 md:ml-10 md:mt-0 w-2/4 h-2/4 my-10 bg-gradient-to-b from-teal-400 sm:ml-10 ml-25 mx-auto overflow-hidden text-center"
             />
           </div>
         </div>

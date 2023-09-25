@@ -51,12 +51,10 @@ const Home = () => {
         </h2>
       </motion.div>
 
-      <div className="absolute xs:bottom-10 bottom-32  w-full flex justify-center items-center">
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 w-[35px] h-[5px] flex justify-center items-center mb-10 pr-6">
         <Link to="about" spy={true} smooth={true} duration={500}>
-          <div className="w-[35px] h-[5px] flex justify-center items-start p-2 hover:cursor-pointer">
-            <div className="w-3 h-3 rounded-full bg-secondary mb-1 content-center justify-center">
-              <TiArrowDownThick className="text-white ml-1 mr-2 hover:text-teal-400 w-[30px] h-[30px] mx-auto" />
-            </div>
+          <div className="w-3 h-3 rounded-full bg-secondary mb-1">
+            <TiArrowDownThick className="text-white ml-1 mr-2 hover:text-teal-400 w-[30px] h-[30px] cursor-pointer" />
           </div>
         </Link>
       </div>

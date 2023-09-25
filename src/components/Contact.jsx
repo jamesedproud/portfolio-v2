@@ -58,7 +58,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="text-white w-full h-screen bg-gray-900 flex justify-center text-center items-center md:p-20 p-4 ">
+      <div className="text-white w-full sm:h-screen bg-gray-900 flex flex-col justify-center text-center items-center -mt-56 md:p-20">
         <div
           name="contact"
           className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen"
@@ -73,7 +73,7 @@ const Contact = () => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <p className="text-4xl font-bold mt-5 text-teal-400">Contact</p>
+            <p className="text-4xl font-bold text-teal-400">Contact</p>
             <p className="mt-5 text-center">
               Feel free to send me a message via the form below or directly by
               email to <i>jamesproud@live.co.uk</i>
@@ -82,7 +82,7 @@ const Contact = () => {
             <form
               ref={formRef}
               onSubmit={handleSubmit}
-              className="mt-7 flex flex-col gap-5"
+              className="flex flex-col gap-5"
             >
               <label className="flex flex-col">
                 <span className="text-white font-medium mb-1 text-left">
@@ -131,20 +131,20 @@ const Contact = () => {
               </button>
             </form>
           </motion.div>
-          <motion.span
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.7 }}
-            variants={{
-              hidden: { opacity: 0, y: 50 },
-              visible: { opacity: 1, y: 0 },
-            }}
-            className="mt-5"
-          >
-            <Socials />
-          </motion.span>
         </div>
+        <motion.span
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.7 }}
+          variants={{
+            hidden: { opacity: 0, x: 50 },
+            visible: { opacity: 1, x: 0 },
+          }}
+          className="pt-0"
+        >
+          <Socials />
+        </motion.span>
       </div>
     </>
   );

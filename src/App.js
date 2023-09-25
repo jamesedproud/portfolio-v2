@@ -11,7 +11,7 @@ import Cursor from "./components/Cursor";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <Navbar />
       <Home />
       <About />

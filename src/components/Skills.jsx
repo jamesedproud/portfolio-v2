@@ -23,7 +23,7 @@ const skillsData = [
 const Skills = () => {
   return (
     <div name="skills" className="bg-gray-900 text-white">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full sm:h-screen sm:pt-0 pt-20">
         <motion.div
           initial="hidden"
           whileInView="visible"
