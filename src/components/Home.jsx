@@ -51,11 +51,21 @@ const Home = () => {
         </h2>
       </motion.div>
 
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 w-[35px] h-[5px] flex justify-center items-center mb-10 pr-6">
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 w-[35px] h-[5px] flex justify-center items-center mb-16 pr-6">
         <Link to="about" spy={true} smooth={true} duration={500}>
-          <div className="w-3 h-3 rounded-full bg-secondary mb-1">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.9 }}
+            variants={{
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            className="w-3 h-3 rounded-full bg-secondary mb-1"
+          >
             <TiArrowDownThick className="text-white ml-1 mr-2 hover:text-teal-400 w-[30px] h-[30px] cursor-pointer" />
-          </div>
+          </motion.div>
         </Link>
       </div>
     </div>

@@ -71,7 +71,7 @@ const About = () => {
               }}
               src={James}
               alt="James"
-              className="max-w-[500] rounded-full sm:my-5 md:w-3/4 md:h-3/4 sm:w-2/4 sm:h-2/4 md:ml-10 md:mt-0 w-2/4 h-2/4 my-10 bg-gradient-to-b from-teal-400 sm:ml-10 ml-25 mx-auto overflow-hidden text-center"
+              className="max-w-[500] w-full max-w-[45%] md:max-w-[75%] mx-auto rounded-full my-10 bg-gradient-to-b from-teal-400 overflow-hidden"
             />
           </div>
         </div>
