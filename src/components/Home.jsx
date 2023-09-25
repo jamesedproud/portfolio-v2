@@ -51,7 +51,7 @@ const Home = () => {
         </h2>
       </motion.div>
 
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 w-[35px] h-[5px] flex justify-center items-center mb-16 pr-6">
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 w-[35px] h-[5px] flex justify-center items-center mb-12 pr-6">
         <Link to="about" spy={true} smooth={true} duration={500}>
           <motion.div
             initial="hidden"
