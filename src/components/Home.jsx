@@ -21,7 +21,7 @@ const Home = () => {
         className="max-w-[1000px] px-8 flex flex-col lg:justify-center pt-[150px] lg:pt-0 lg:pb-10 h-full text-center mx-auto"
       >
         <img
-          className="l-[250px] w-[250px]  visible max-w-[500] rounded-full bg-gradient-to-b from-teal-400 to-gray-900 mx-auto overflow-hidden"
+          className="l-[250px] w-[250px]  visible max-w-[500] rounded-full bg-gradient-to-b from-[#64ffda] to-gray-900 mx-auto overflow-hidden"
           src={process.env.PUBLIC_URL + "/james.png"}
           alt="Avatar"
         />
@@ -31,15 +31,15 @@ const Home = () => {
         >
           James Proud
         </h1>
-        <h2 className="mt-2 text-2xl lg:text-4xl sm:text-3xl font-bold text-teal-400">
+        <h2 className="mt-2 text-2xl lg:text-4xl sm:text-3xl font-bold text-[#64ffda]">
           <TypeAnimation
             sequence={[
               2000,
-              "Web Developer",
+              "Software Developer",
               2000,
               "Systems Administrator",
               2000,
-              "IT Professional",
+              "IT Enthusiast",
               2000,
               "Homo Sapien",
               1000,
@@ -64,7 +64,7 @@ const Home = () => {
             }}
             className="w-3 h-3 rounded-full bg-secondary mb-1"
           >
-            <TiArrowDownThick className="text-white ml-1 mr-2 hover:text-teal-400 w-[30px] h-[30px] cursor-pointer" />
+            <TiArrowDownThick className="text-white ml-1 mr-2 hover:text-[#64ffda] w-[30px] h-[30px] cursor-pointer" />
           </motion.div>
         </Link>
       </div>

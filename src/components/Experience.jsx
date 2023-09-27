@@ -124,7 +124,7 @@ const Experience = () => {
           }}
           className="text-center"
         >
-          <p className="text-4xl font-bold text-teal-400 mb-5">Experience</p>
+          <p className="text-4xl font-bold text-[#64ffda] mb-5">Experience</p>
         </motion.div>
 
         {/* Vertical Timeline */}

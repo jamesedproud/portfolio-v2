@@ -12,21 +12,21 @@ const Socials = () => {
             rel="noreferrer"
             href="https://github.com/jamesedproud"
           >
-            <AiFillGithub className="text-white hover:text-teal-300 hover:cursor-pointer" />{" "}
+            <AiFillGithub className="text-white hover:text-[#64ffda] hover:cursor-pointer" />{" "}
           </a>
           <a
             target="_blank"
             rel="noreferrer"
             href="https://www.linkedin.com/in/james-proud-55990b148/"
           >
-            <AiFillLinkedin className="text-white hover:text-teal-300 hover:cursor-pointer" />
+            <AiFillLinkedin className="text-white hover:text-[#64ffda] hover:cursor-pointer" />
           </a>
           <a
             target="_blank"
             rel="noreferrer"
             href="mailto:jamesproud@live.co.uk"
           >
-            <MdMail className="text-white hover:text-teal-300 hover:cursor-pointer" />
+            <MdMail className="text-white hover:text-[#64ffda] hover:cursor-pointer" />
           </a>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Socials = () => {
             target="_blank"
             rel="noreferrer"
             href="https://react.dev/"
-            className="text-white hover:cursor-pointer hover:text-teal-300"
+            className="text-white hover:cursor-pointer hover:text-[#64ffda]"
           >
             React
           </a>
@@ -49,7 +49,7 @@ const Socials = () => {
             target="_blank"
             rel="noreferrer"
             href="https://tailwindcss.com/"
-            className="text-white hover:cursor-pointer hover:text-teal-300"
+            className="text-white hover:cursor-pointer hover:text-[#64ffda]"
           >
             Tailwind.css
           </a>

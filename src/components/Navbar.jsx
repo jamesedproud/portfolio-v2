@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import Home from "./Home";
 
 const MenuItem = ({ to, label, onClick }) => (
-  <li className=" hover:text-teal-400 duration-200 hover:cursor-pointer text-lg">
+  <li className=" hover:text-[#64ffda] duration-200 hover:cursor-pointer text-lg">
     <Link to={to} spy={true} smooth={true} duration={500} onClick={onClick}>
       {label}
     </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
       {/* Hamburger menu */}
       <div
         onClick={toggleNav}
-        className="md:hidden z-10 hover:cursor-pointer hover:text-teal-400"
+        className="md:hidden z-10 hover:cursor-pointer hover:text-[#64ffda]"
       >
         {nav ? <FaTimes /> : <FaBars />}
       </div>

@@ -23,7 +23,7 @@ const About = () => {
                 visible: { opacity: 1, x: 0 },
               }}
             >
-              <p className="md:text-4xl font-bold inline text-2xl text-teal-400">
+              <p className="md:text-4xl font-bold inline text-2xl text-[#64ffda]">
                 A little about me.
               </p>
               <div>
@@ -51,7 +51,7 @@ const About = () => {
               </div>
 
               <div>
-                <button className="text-white  group border-2 px6 mt-2 pl-2 py-3 my-2 flex items-center hover:text-teal-400 hover:border-teal-400">
+                <button className="text-white  group border-2 px6 mt-2 pl-2 py-3 my-2 flex items-center hover:text-[#64ffda] hover:border-[#64ffda]">
                   Download Resume
                   <span className="group-hover:rotate-90 duration-300">
                     <HiArrowNarrowRight className="ml-2 mr-2" />
@@ -71,7 +71,7 @@ const About = () => {
               }}
               src={James}
               alt="James"
-              className="w-full max-w-[45%] md:max-w-[75%] mx-auto rounded-full my-10 bg-gradient-to-b from-teal-400 overflow-hidden"
+              className="w-full max-w-[45%] md:max-w-[75%] mx-auto rounded-full my-10 bg-gradient-to-b from-teal-300 overflow-hidden"
             />
           </div>
         </div>

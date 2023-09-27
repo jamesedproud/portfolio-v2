@@ -58,7 +58,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="text-white w-full sm:h-screen bg-gray-900 flex flex-col justify-center text-center items-center -mt-56 md:p-20">
+      <div className="text-white w-full sm:h-screen bg-gray-900 flex flex-col justify-center text-center items-center -mt-44 md:p-20">
         <div
           name="contact"
           className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen"
@@ -73,7 +73,7 @@ const Contact = () => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <p className="text-4xl font-bold text-teal-400">Contact</p>
+            <p className="text-4xl font-bold text-[#64ffda]">Contact</p>
             <p className="mt-5 text-center">
               Feel free to send me a message via the form below or directly by
               email to <i>jamesproud@live.co.uk</i>
@@ -125,7 +125,7 @@ const Contact = () => {
               </label>
               <button
                 type="submit"
-                className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl border-2 border-white hover:border-teal-400 hover:text-teal-400"
+                className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl border-2 border-white hover:border-[#64ffda] hover:text-[#64ffda]"
               >
                 {loading ? "Sending..." : "Send"}
               </button>
