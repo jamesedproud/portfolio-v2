@@ -32,17 +32,21 @@ const ProjectCard = ({
     >
       <div className="pt-4 pb-7 px-3 md:pl-10 md:pr-2 md:pt-5 md:max-w-[60%] max-h-[500px] flex flex-col sm:h-full lg:group-even:ml-[26rem] md:group-even:ml-[18rem] md:group-odd:pr-[2rem]  z-50 md:mt-8">
         <div className="flex flex-wrap absolute top-3 right-3 gap-2">
-          <TbBrandGithub
-            size={27}
-            className="hover:text-[#64ffda] hover:cursor-pointer transition duration-500"
-          />
-          <BiLinkExternal
-            size={27}
-            className="hover:text-[#64ffda] hover:cursor-pointer transition duration-500"
-          />
+          <a href={codeLink} rel="noreferrer" target="_blank">
+            <TbBrandGithub
+              size={27}
+              className="hover:text-[#64ffda] hover:cursor-pointer transition duration-500 text-gray-400"
+            />
+          </a>
+          <a href={demoLink} rel="noreferrer" target="_blank">
+            <BiLinkExternal
+              size={27}
+              className="hover:text-[#64ffda] hover:cursor-pointer transition duration-500 text-gray-400"
+            />
+          </a>
         </div>
         <div className="">
-          <h3 className="text-2xl font-extrabold hover:text-[#64ffda] hover:cursor-pointer transition duration-500 mt-2">
+          <h3 className="text-2xl font-extrabold group-hover:text-[#64ffda] hover:cursor-pointer transition duration-500 mt-2">
             {title}
           </h3>
           <p
@@ -63,7 +67,7 @@ const ProjectCard = ({
             ))}
           </ul>
         </div>
-        <div className="opacity-50 hover:opacity-100 transition-opacity duration-400">
+        <div className="opacity-80 hover:opacity-100 transition-opacity duration-400">
           <img
             src={imageSrc}
             alt="Milk Runner"
@@ -89,9 +93,9 @@ const Portfolio = () => {
       tech: ["Next.js", "Tailwind", "Flask", "PostgreSQL", "AWS"],
     },
     {
-      title: "Portfolio Website v2.0",
+      title: "Portfolio Website v2",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Second version of my portfolio website made with React for the purpose of centralizing my projects and skills.",
       imageSrc: PortfolioScreenShot,
       demoLink:
         "http://www.thepasswordtoolkit.com.s3-website.eu-west-2.amazonaws.com/",
@@ -99,14 +103,14 @@ const Portfolio = () => {
       tech: ["React", "Tailwind", "Vercel"],
     },
     {
-      title: "Project 3",
+      title: "The Password Toolkit (Old)",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "An old project I made for assessing password security along with other security best practises. Made without any frameworks. I'm keeping it here for now because password security is always relevent!",
       imageSrc: PT,
       demoLink:
         "http://www.thepasswordtoolkit.com.s3-website.eu-west-2.amazonaws.com/",
       codeLink: "https://github.com/jamesedproud/ThePasswordToolkit",
-      tech: ["React", "Tailwind", "Vercel"],
+      tech: ["HTML", "CSS", "JavaScript", "AWS"],
     },
     // Add more projects here later
   ];
@@ -126,7 +130,7 @@ const Portfolio = () => {
           className="pb-8 text-center"
         >
           <p className="text-4xl font-bold inline text-[#64ffda]">Projects</p>
-          <p className="py-6">
+          <p className="py-6 text-gray-300">
             Currently working on some cool full stack apps. Check back here
             soon...👨‍💻
           </p>

@@ -27,7 +27,7 @@ const About = () => {
                 A little about me.
               </p>
               <div>
-                <p className="pt-5 pb-5">
+                <p className="pt-5 pb-5 text-gray-300">
                   Afer pursuing a degree in Computing in London, I took the
                   plunge and moved to Japan. Over the past few years I have
                   worked in Data Center Operations at major cloud providers
@@ -51,12 +51,14 @@ const About = () => {
               </div>
 
               <div>
-                <button className="text-white  group border-2 px6 mt-2 pl-2 py-3 my-2 flex items-center hover:text-[#64ffda] hover:border-[#64ffda]">
-                  Download Resume
-                  <span className="group-hover:rotate-90 duration-300">
-                    <HiArrowNarrowRight className="ml-2 mr-2" />
-                  </span>
-                </button>
+                <a href="/JamesProudResume2023-10.pdf" target="_blank">
+                  <button className="text-white  group border-2 px6 mt-2 pl-2 py-3 my-2 flex items-center hover:text-[#64ffda] hover:border-[#64ffda]">
+                    Download Resume
+                    <span className="group-hover:rotate-90 duration-300">
+                      <HiArrowNarrowRight className="ml-2 mr-2" />
+                    </span>
+                  </button>
+                </a>
               </div>
             </motion.div>
 

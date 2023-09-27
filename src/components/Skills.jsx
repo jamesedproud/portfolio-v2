@@ -41,7 +41,9 @@ const Skills = () => {
           className="text-center"
         >
           <p className="text-4xl font-bold text-[#64ffda]">Skills</p>
-          <p className="py-4">This is what I've been working with lately</p>
+          <p className="py-4 text-gray-300">
+            This is what I've been working with lately
+          </p>
         </motion.div>
         <ul className="text-center mt-10 flex flex-wrap justify-center text-lg gap-2">
           {skillsData.map((skill, index) => (

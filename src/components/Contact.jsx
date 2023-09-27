@@ -74,7 +74,7 @@ const Contact = () => {
             }}
           >
             <p className="text-4xl font-bold text-[#64ffda]">Contact</p>
-            <p className="mt-5 text-center">
+            <p className="mt-5 text-center text-gray-300">
               Feel free to send me a message via the form below or directly by
               email to <i>jamesproud@live.co.uk</i>
             </p>
