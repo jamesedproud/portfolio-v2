@@ -32,7 +32,8 @@ const About = () => {
                   plunge and moved to Japan. Over the past few years I have
                   worked in Data Center Operations at major cloud providers
                   including AWS and Oracle, granting me invaluable insights into
-                  the intricacies of cloud technology. <br />
+                  the intricacies of cloud technology (I have literally been
+                  inside the cloud). <br />
                   <br /> My passion lies in software and application
                   development, where I've harnessed my skills in my workplace
                   and have become somewhat of a "rogue developer" crafting

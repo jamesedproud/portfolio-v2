@@ -103,7 +103,7 @@ const Portfolio = () => {
       tech: ["React", "Tailwind", "Vercel"],
     },
     {
-      title: "The Password Toolkit (Old)",
+      title: "The Password Toolkit",
       description:
         "An old project I made for assessing password security along with other security best practises. Made without any frameworks. I'm keeping it here for now because password security is always relevent!",
       imageSrc: PT,
