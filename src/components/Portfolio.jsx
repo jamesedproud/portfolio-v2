@@ -26,7 +26,7 @@ const ProjectCard = ({
       viewport={{ once: true, amount: 0.5 }}
       transition={{ duration: 0.8 }}
       variants={{
-        hidden: { opacity: 0, x: isEven ? -200 : 200 },
+        hidden: { opacity: 0, x: isEven ? -50 : 50 },
         visible: { opacity: 1, x: 0 },
       }}
     >
@@ -89,7 +89,7 @@ const Portfolio = () => {
       tech: ["Next.js", "Tailwind", "Flask", "PostgreSQL", "AWS"],
     },
     {
-      title: "Portfolio Website",
+      title: "Portfolio Website v2.0",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       imageSrc: PortfolioScreenShot,
@@ -118,7 +118,7 @@ const Portfolio = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.4 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },
